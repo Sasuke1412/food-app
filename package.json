@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "homepage": "http://Sasuke1412.github.io/my-app"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build"
+  }
+}
